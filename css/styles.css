@@ -1,16 +1,37 @@
 body {
   background-color: blanchedalmond;
+  margin-bottom: 30%;
 }
 
 h1 {
   color: red;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
 }
 
 p {
   color: Green;
+  text-align: center;
+  font-family: "Pacifico", cursive;
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 10%;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.heading {
+  color: black;
 }
